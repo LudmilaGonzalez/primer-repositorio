@@ -1,0 +1,21 @@
+@mixin flex ($justify, $aling, $padding, $text){
+    display: flex;
+    justify-content: $justify;
+    align-items: $aling;
+    padding: $padding;
+    text-align: $text;
+}
+
+@mixin sizes ($widht, $height, $padding){
+    width: $widht;
+    height: $height;
+    padding: $padding;
+}
+
+@mixin grid ($column,$rows){
+    display: grid;
+    grid-template-columns: $column ;
+    grid-template-rows:$rows ;
+}
+
+

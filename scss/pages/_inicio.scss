@@ -1,0 +1,52 @@
+/**index**/
+.body {
+    background-color: $color-principal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo-principal {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+
+.contiene-portada {
+    @include grid(auto, 550px);
+
+    img {
+        display: flex;
+        @include sizes(100%, 100%, none)
+    }
+}
+
+#nuestros-servicios {
+    h2 {
+        @include flex(none,none,10px,left);
+        margin-left: 10px;
+        text-transform: uppercase;
+        font-family: 'Roboto Slab', serif;
+    }
+    div {
+        @include flex(center,none,none,none);
+        list-style-type: none;
+        flex-wrap: wrap;
+        img {
+            text-align: right;
+            @include sizes(350px,350px,10px 10px 10px 10px)
+        }
+    }
+
+}
+
+
+//tablet
+@media screen and (min-width:501px) and (max-width:960px) {
+}
+
+//movil
+@media screen and (max-width:500px){
+}
+
+//desktop
+@media screen and (min-width:961px){
+}

@@ -1,0 +1,32 @@
+.titulos{
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-servicios{
+    @include flex(none, center,none,none);
+    img{
+        @include sizes(500px, 500px, 10px 0px 20px 20px)
+    }
+}
+
+.descripcion-servicios {
+    padding: 0px 30px 0px 40px;
+    text-align: justify;
+}
+
+.btn{
+    @include flex(center, none, none, none);
+}
+
+
+//tablet
+@media screen and (min-width:501px) and (max-width:960px) {
+}
+
+//movil
+@media screen and (max-width:500px){
+}
+
+//desktop
+@media screen and (min-width:961px){
+}

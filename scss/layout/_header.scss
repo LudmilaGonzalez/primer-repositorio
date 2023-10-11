@@ -1,0 +1,28 @@
+.logo {
+    width: 120px;
+    border-radius: 60px;
+}
+
+.header {
+    background-color: $color-secundario;
+    @include flex(center, center, 10px, none)
+}
+
+.nav-prueba {
+    ul {
+        list-style-type: none;
+        li {
+            float: left;
+            a {
+                display: block;
+                text-decoration: none;
+                padding: 10px 15px;
+                color: black;
+            } 
+            a:hover{
+color: white;
+            }
+        }
+    }
+}
+

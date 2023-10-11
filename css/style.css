@@ -1,158 +1,160 @@
-/**index**/ 
-.body{
-background-color: #ffe4e1 ;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h2{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .logo {
-    width: 120px;
-    border-radius: 60px;
-}
+  width: 120px;
+  border-radius: 60px; }
 
-.header-prueba{
-    display: flex;
-    background-color: #d8bfd8;
-    align-items: center;
-justify-content: center;
-padding: 10px;
-}
+.header {
+  background-color: #d8bfd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: none; }
 
-ul{
-    list-style-type: none;
-}
+.nav-prueba ul {
+  list-style-type: none; }
+  .nav-prueba ul li {
+    float: left; }
+    .nav-prueba ul li a {
+      display: block;
+      text-decoration: none;
+      padding: 10px 15px;
+      color: black; }
+    .nav-prueba ul li a:hover {
+      color: white; }
 
-.nav-prueba li a{
-    display: block;
-    text-decoration: none;
-    padding: 10px 15px;
-    color: black;
-}
+.footer {
+  background-color: #d8bfd8; }
 
-.nav-prueba li{
-    float:left
-}
+.seguinos {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  padding: 10px;
+  text-align: none;
+  font-family: 'Roboto Slab', serif; }
 
-.nav-prueba li a:hover{
-    color: white;
-}
+#redes-link ul {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  padding: none;
+  text-align: none;
+  list-style-type: none; }
+  #redes-link ul li img {
+    width: 60px;
+    height: 60px;
+    padding: 10px 10px; }
+
+.flecha {
+  width: 50px; }
+
+.pie-pagina {
+  display: flex;
+  justify-content: space-around;
+  align-items: none;
+  padding: none;
+  text-align: none; }
+
+.mapa {
+  display: flex;
+  padding: 10px 0px 10px 20px; }
+
+/**index**/
+.body {
+  background-color: #ffe4e1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 .titulo-principal {
-    text-align: center;
-    text-transform: uppercase;
-font-family: 'Roboto Slab', serif;
-}
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif; }
 
-.titulos{
-    font-family: 'Roboto Slab', serif;
-}
-
-.portada {
+.contiene-portada {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 550px; }
+  .contiene-portada img {
     display: flex;
     width: 100%;
     height: 100%;
-}
+    padding: none; }
 
-.contiene-portada{
-display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 550px;
-
-    }
-    
 #nuestros-servicios h2 {
-    text-align: left;
-    text-transform: uppercase;
-    font-family: 'Roboto Slab', serif;
-    padding-top: 10px;
-}
+  display: flex;
+  justify-content: none;
+  align-items: none;
+  padding: 10px;
+  text-align: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif; }
 
-.fotos-servicios {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-
-.titulo-servicios{
-    display: flex;
-margin-left: 10px;
-}
-
-#nuestros-servicios img {
+#nuestros-servicios div {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  padding: none;
+  text-align: none;
+  list-style-type: none;
+  flex-wrap: wrap; }
+  #nuestros-servicios div img {
     text-align: right;
     width: 350px;
     height: 350px;
-    padding: 10px 10px 10px 10px;
-}
+    padding: 10px 10px 10px 10px; }
 
-.mapa {
-    display: flex;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
+.titulos {
+  font-family: 'Roboto Slab', serif; }
 
-.footer{
-    
-    background-color: #d8bfd8;
-}
+.titulos {
+  font-family: 'Roboto Slab', serif; }
 
-.seguinos {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    font-family: 'Roboto Slab', serif;
-    
-}
-
-#redes-link ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-}
-
-#redes-link li img {
-    width: 60px;
-    height: 60px; 
-    padding: 10px 10px
-}
-
-.flecha {
-    width: 50px;
-}
-
-.pie-pagina{
-    display: flex;
-    justify-content: space-around; 
-    
-}
-
-/**servicios*/
-
-.main-servicios{
-    display: flex;
-    align-items: center;
-}
+.main-servicios {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  padding: none;
+  text-align: none; }
+  .main-servicios img {
+    width: 500px;
+    height: 500px;
+    padding: 10px 0px 20px 20px; }
 
 .descripcion-servicios {
-    padding-left: 40px;
-    padding-right: 30px;
-    text-align: justify;
-}
+  padding: 0px 30px 0px 40px;
+  text-align: justify; }
 
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  padding: none;
+  text-align: none; }
 
-.btn{
-    display: flex;
-    justify-content: center;
-}
+.titulos {
+  font-family: 'Roboto Slab', serif; }
 
-/**reserva tu turno*/
+.main-servicios {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  padding: none;
+  text-align: none; }
+  .main-servicios img {
+    width: 500px;
+    height: 500px;
+    padding: 10px 0px 20px 20px; }
+
+.descripcion-servicios {
+  padding: 0px 30px 0px 40px;
+  text-align: justify; }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: none;
+  padding: none;
+  text-align: none; }
+
+.titulos {
+  font-family: 'Roboto Slab', serif; }

@@ -1,0 +1,28 @@
+.footer{
+    background-color: $color-secundario;
+}
+
+.seguinos{
+    @include flex (center, none, 10px,none);
+    font-family: 'Roboto Slab', serif;
+}
+
+#redes-link{
+    ul{
+        @include flex (center, none, none,none);
+        list-style-type:none;
+        li{
+            img{
+                @include sizes(60px, 60px, 10px 10px)
+            }
+        }
+    }
+}
+
+.flecha {
+    width: 50px;
+}
+
+.pie-pagina{
+    @include flex(space-around,none,none,none);
+}
