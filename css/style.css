@@ -1,29 +1,39 @@
 .logo {
   width: 120px;
-  border-radius: 60px; }
+  border-radius: 60px;
+}
 
 .header {
+  position: sticky;
+  top: 0;
   background-color: #d8bfd8;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  text-align: none; }
+  text-align: none;
+}
 
 .nav-prueba ul {
-  list-style-type: none; }
-  .nav-prueba ul li {
-    float: left; }
-    .nav-prueba ul li a {
-      display: block;
-      text-decoration: none;
-      padding: 10px 15px;
-      color: black; }
-    .nav-prueba ul li a:hover {
-      color: white; }
+  list-style-type: none;
+}
+.nav-prueba ul li {
+  float: left;
+}
+.nav-prueba ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+}
+.nav-prueba ul li a:hover {
+  color: white;
+}
 
 .footer {
-  background-color: #d8bfd8; }
+  height: auto;
+  background-color: #d8bfd8;
+}
 
 .seguinos {
   display: flex;
@@ -31,7 +41,8 @@
   align-items: none;
   padding: 10px;
   text-align: none;
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto Slab", serif;
+}
 
 #redes-link ul {
   display: flex;
@@ -39,45 +50,58 @@
   align-items: none;
   padding: none;
   text-align: none;
-  list-style-type: none; }
-  #redes-link ul li img {
-    width: 60px;
-    height: 60px;
-    padding: 10px 10px; }
+  list-style-type: none;
+}
+#redes-link ul li img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
 
 .flecha {
-  width: 50px; }
+  width: 40px;
+  padding-bottom: 20px;
+}
 
 .pie-pagina {
   display: flex;
   justify-content: space-around;
   align-items: none;
   padding: none;
-  text-align: none; }
+  text-align: none;
+}
 
 .mapa {
   display: flex;
-  padding: 10px 0px 10px 20px; }
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 20px;
+  text-align: center;
+}
 
 /**index**/
 .body {
   background-color: #ffe4e1;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .titulo-principal {
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto Slab", serif;
+}
 
 .contiene-portada {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 550px; }
-  .contiene-portada img {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    padding: none; }
+  grid-template-rows: 550px;
+}
+.contiene-portada img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: none;
+}
 
 #nuestros-servicios h2 {
   display: flex;
@@ -87,8 +111,8 @@
   text-align: left;
   margin-left: 10px;
   text-transform: uppercase;
-  font-family: 'Roboto Slab', serif; }
-
+  font-family: "Roboto Slab", serif;
+}
 #nuestros-servicios div {
   display: flex;
   justify-content: center;
@@ -96,65 +120,106 @@
   padding: none;
   text-align: none;
   list-style-type: none;
-  flex-wrap: wrap; }
-  #nuestros-servicios div img {
-    text-align: right;
-    width: 350px;
-    height: 350px;
-    padding: 10px 10px 10px 10px; }
+  flex-wrap: wrap;
+}
+#nuestros-servicios div img {
+  text-align: right;
+  width: 350px;
+  height: 350px;
+  padding: 15px 15px 15px 15px;
+  transition: transform 0.2s, opacity 0.3s;
+}
+#nuestros-servicios div img:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.direccion h3 {
+  display: flex;
+  justify-content: none;
+  align-items: none;
+  padding: 10px 0px 0px 20px;
+  text-align: none;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+}
 
 .titulos {
-  font-family: 'Roboto Slab', serif; }
+  margin-left: 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
 
 .titulos {
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto Slab", serif;
+}
 
 .main-servicios {
   display: flex;
   justify-content: none;
   align-items: center;
   padding: none;
-  text-align: none; }
-  .main-servicios img {
-    width: 500px;
-    height: 500px;
-    padding: 10px 0px 20px 20px; }
+  text-align: none;
+}
+.main-servicios img {
+  width: 500px;
+  height: 500px;
+  padding: 10px 0px 20px 20px;
+}
 
 .descripcion-servicios {
   padding: 0px 30px 0px 40px;
-  text-align: justify; }
+  text-align: justify;
+}
 
 .btn {
   display: flex;
   justify-content: center;
   align-items: none;
   padding: none;
-  text-align: none; }
+  text-align: none;
+}
 
 .titulos {
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto Slab", serif;
+}
 
 .main-servicios {
   display: flex;
   justify-content: none;
   align-items: center;
   padding: none;
-  text-align: none; }
-  .main-servicios img {
-    width: 500px;
-    height: 500px;
-    padding: 10px 0px 20px 20px; }
+  text-align: none;
+}
+.main-servicios img {
+  width: 500px;
+  height: 500px;
+  padding: 10px 0px 20px 20px;
+}
 
 .descripcion-servicios {
   padding: 0px 30px 0px 40px;
-  text-align: justify; }
+  text-align: justify;
+}
 
 .btn {
   display: flex;
   justify-content: center;
   align-items: none;
   padding: none;
-  text-align: none; }
+  text-align: none;
+}
 
 .titulos {
-  font-family: 'Roboto Slab', serif; }
+  font-family: "Roboto Slab", serif;
+}
+
+/*# sourceMappingURL=style.css.map */

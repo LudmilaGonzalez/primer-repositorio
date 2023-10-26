@@ -1,4 +1,5 @@
 .mapa {
-    display: flex;
-    padding: 10px 0px 10px 20px;
+    
+    @include flex (center, center,10px 0px 10px 20px, center );
+    
 }

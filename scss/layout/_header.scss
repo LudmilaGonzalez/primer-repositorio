@@ -4,11 +4,15 @@
 }
 
 .header {
+    position: sticky;
+    top: 0;
     background-color: $color-secundario;
-    @include flex(center, center, 10px, none)
+    @include flex(center, center, 10px, none);
 }
 
+
 .nav-prueba {
+    
     ul {
         list-style-type: none;
         li {
